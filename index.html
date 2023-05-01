@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Calificar Juegos</title>
+</head>
+<body>
+
+    <form method="post" action="juzgoncito.php">
+        <h1>Calificamos tu juego</h1>
+            <label for="anio-lanzamiento">Jugabilidad</label>
+        <input type="number" id="anio-lanzamiento" name="anio-lanzamiento" min="0" max="100" required>
+        <label for="num-jugadores">Visuales:</label>
+        <input type="number" id="num-jugadores" name="num-jugadores" min="0" max="100" required>
+        <label for="puntaje">Precio:</label>
+        <input type="number" id="puntaje" name="puntaje" min="0" max="100" required>
+        <input type="submit" value="Enviar">
+      </form>
+
+</body>
+</html>
