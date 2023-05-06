@@ -186,7 +186,6 @@
     regla($jugabilidad[2], $visuales[2], $precio[2], 3);
     regla($jugabilidad[2], $visuales[2], $precio[2], 3);
     regla($jugabilidad[2], $visuales[2], $precio[2], 3);
-    regla($jugabilidad[2], $visuales[2], $precio[2], 3);
 
 
 
